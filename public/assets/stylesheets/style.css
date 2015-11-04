@@ -1,0 +1,79 @@
+html {
+  background-color: #ebeced;
+  color: #373d48;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding-bottom: 42px;
+}
+
+a {
+  text-decoration: none;
+  color: #2E5484;
+}
+
+.slogan {
+    padding: 10px;
+}
+
+#header {
+  background-color: #252627;
+  padding: 14px 5%;
+  color: #FFF;
+}
+
+#header strong {
+  font-size: 24px;
+  margin-right: 24px;
+  color: #FFF;
+  font-family: fantasy;
+}
+
+#header small {
+  font-size: 16px;
+  font-family: monospace;
+}
+
+.wrapper {
+  width: 642px;
+  margin: 0 auto;
+}
+
+.list-item {
+  border: 1px solid #BBB;
+  margin-bottom: 28px;
+}
+
+.image-item {
+
+}
+
+.info-item {
+  padding: 6px 10px;
+  border-bottom: 1px solid #DDD;
+}
+
+.action-item {
+  padding: 6px 10px;
+}
+
+.info-title {
+  display: block;
+}
+
+.info-desc {
+  padding: 8px 0;
+  margin: 0;
+}
+
+.info-price {
+  display: block;
+  font-weight: bold;
+  color: #E45C5F;
+}
+
+.action-item a {
+  margin-right: 21px;
+}
