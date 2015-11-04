@@ -8,5 +8,5 @@ for (var key in App.items) {
   value.key = key
   datalist.push(value)
 }
-console.log(datalist)
+
 ReactDOM.render(<ItemCardList datalist={datalist} />, document.querySelector('#list'))
