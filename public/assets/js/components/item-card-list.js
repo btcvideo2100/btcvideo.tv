@@ -1,5 +1,5 @@
 import React from 'react'
-import ItemCard from './item-card.js!jsx'
+import ItemCard from './item-card.js'
 
 var ItemCardList = React.createClass({
   render: function() {

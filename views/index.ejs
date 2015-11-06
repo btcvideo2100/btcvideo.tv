@@ -31,14 +31,12 @@
   </div>
 
   <script src="/jspm_packages/system.src.js"></script>
+  <script src="/jspm.config.js"></script>
   <script>
     var App = {
-      items: <%-JSON.stringify(items)%>
+      items: []
     }
-
-    <% include ../public/jspm.config.js %>
-
-    System.import('assets/js/app.js!jsx')
+    System.import('assets/js/app.js')
   </script>
 </body>
 </html>

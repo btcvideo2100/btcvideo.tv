@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import ItemCardList from './components/item-card-list.js!jsx'
-import EmailForm from './components/email-form.js!jsx'
+import ItemCardList from './components/item-card-list.js'
+import EmailForm from './components/email-form.js'
 
 var datalist = []
 for (var key in App.items) {
