@@ -33,7 +33,7 @@ var widget = React.createClass({
     )
 
     return (
-      <div className="email-form" hidden={this.state.hidden}>
+      <div className="email-form" hidden={false}>
         {fragment}
       </div>
     )
