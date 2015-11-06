@@ -22,7 +22,6 @@
     },
     "configFile": "public/jspm.config.js",
     "dependencies": {
-      "jsx": "github:floatdrop/plugin-jsx@^1.1.0",
       "react": "npm:react@^0.14.2",
       "react-dom": "npm:react-dom@^0.14.2"
     },
