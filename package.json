@@ -30,5 +30,14 @@
       "babel-runtime": "npm:babel-runtime@^5.8.24",
       "core-js": "npm:core-js@^1.1.4"
     }
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-html-replace": "^1.5.4",
+    "gulp-rename": "^1.2.2",
+    "jspm": "^0.16.14",
+    "merge2": "^0.3.6"
   }
 }

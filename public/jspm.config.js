@@ -181,7 +181,22 @@ System.config({
       "npm:fbjs@0.3.2/lib/createArrayFromMixed",
       "npm:fbjs@0.3.2/lib/camelize",
       "npm:fbjs@0.3.2/lib/toArray"
+    ],
+    "assets-build/js/bundle.js": [
+      "assets/js/app.js",
+      "assets/js/components/email-form.js",
+      "assets/js/components/item-card-list.js",
+      "assets/js/components/item-card.js"
     ]
+  },
+
+  meta: {
+    "react": {
+      "build": false
+    },
+    "react-dom": {
+      "build": false
+    }
   },
 
   map: {

@@ -30,12 +30,16 @@
     <div id="list"></div>
   </div>
 
-  <script src="/jspm_packages/system.src.js"></script>
-  <script src="/jspm.config.js"></script>
   <script>
     var App = {
       items: []
     }
+  </script>
+  <!-- build:js -->
+  <script src="/jspm_packages/system.src.js"></script>
+  <script src="/jspm.config.js"></script>
+  <!-- endbuild -->
+  <script>
     System.import('assets/js/app.js')
   </script>
 </body>
