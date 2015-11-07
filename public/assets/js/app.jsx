@@ -1,7 +1,7 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import ItemCardList from './components/item-card-list.js'
-import EmailForm from './components/email-form.js'
+var React = require('react')
+var ReactDOM = require('react-dom')
+var ItemCardList = require('./components/item-card-list.jsx')
+var EmailForm = require('./components/email-form.jsx')
 
 var datalist = []
 for (var key in App.items) {
@@ -19,5 +19,6 @@ function onBuy() {
 var list = document.querySelector('#list')
 
 ReactDOM.render(
-  <EmailForm hidden={false} />
-, list)
+  <EmailForm hidden={false} />,
+  list
+)

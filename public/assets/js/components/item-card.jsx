@@ -1,6 +1,6 @@
-import React from 'react'
+var React = require('react')
 
-var ItemCard = React.createClass({
+module.exports = React.createClass({
   getInitialState: function() {
     return {
       item: {}
@@ -34,5 +34,3 @@ var ItemCard = React.createClass({
     )
   }
 })
-
-export default ItemCard

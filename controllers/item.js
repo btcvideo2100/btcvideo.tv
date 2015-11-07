@@ -22,11 +22,11 @@ exports.add = (opts) => {
     type: opts.type || 1
   })
 }
-
-exports.add({
-  src: 'https://thingd-media-ec6.thefancy.com/default/1010668639373755397_65b2f7ff1b5a.jpg',
-  title: 'test',
-  desc: 'Today we are very happy to be releasing an exciting new style of porn bundle that we call a step ',
-  price: 100,
-  type: 1
-})
+//
+// exports.add({
+//   src: 'https://thingd-media-ec6.thefancy.com/default/1010668639373755397_65b2f7ff1b5a.jpg',
+//   title: 'test',
+//   desc: 'Today we are very happy to be releasing an exciting new style of porn bundle that we call a step ',
+//   price: 100,
+//   type: 1
+// })

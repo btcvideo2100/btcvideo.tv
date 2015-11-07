@@ -1,7 +1,7 @@
-import React from 'react'
-import ItemCard from './item-card.js'
+var React = require('react')
+var ItemCard = require('./item-card.jsx')
 
-var ItemCardList = React.createClass({
+module.exports = React.createClass({
   render: function() {
     var list = this.props.datalist.map(function(item) {
       return <ItemCard item={item} key={item.key} onBuy={this.props.onBuy} />
@@ -9,5 +9,3 @@ var ItemCardList = React.createClass({
     return <div>{list}</div>
   }
 })
-
-export default ItemCardList

@@ -1,6 +1,6 @@
-import React from 'react'
+var React = require('react')
 
-var widget = React.createClass({
+module.exports = React.createClass({
   getInitialState: function() {
     return {
       hidden: true,
@@ -39,5 +39,3 @@ var widget = React.createClass({
     )
   }
 })
-
-export default widget

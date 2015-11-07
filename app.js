@@ -8,7 +8,7 @@ var routes = require('./routes/index');
 var itemController = require('./controllers/item');
 
 var app = express();
-app.locals.DEBUG = true;
+app.locals.DEBUG = process.argv[2] !== 'production';
 app.locals.cache = !app.locals.DEBUG;
 
 itemController.init(app);
@@ -24,7 +24,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.static(path.join(__dirname, 'jspm_packages')));
 
 app.use('/', routes);
 
