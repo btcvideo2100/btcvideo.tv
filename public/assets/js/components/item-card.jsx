@@ -27,7 +27,7 @@ module.exports = React.createClass({
         </div>
 
         <div className="action-item">
-          <a href="javscript:;" onClick={this.props.onBuy.bind(this)}>Buy</a>
+          <a href="javscript:;" title="preview this video now" onClick={this.props.onBuy.bind(this)}>Preview</a>
           <a href="javascript:;">Report</a>
         </div>
       </div>
