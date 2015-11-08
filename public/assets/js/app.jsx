@@ -10,15 +10,20 @@ for (var key in App.items) {
   datalist.push(value)
 }
 
+var isListHidden = false
+
 // 填写Email生产购买链接
 function onBuy() {
-  var item = this.props.item
-
+  isListHidden = true
+  currentItem = this.props.item
 }
 
 var list = document.querySelector('#list')
 
 ReactDOM.render(
-  <EmailForm hidden={false} />,
+  <div>
+    <ItemCardList items={datalist} onBuy={onBuy} hidden={isListHidden} />
+    <EmailForm hidden={false} item={currentItem} />
+  </div>,
   list
 )

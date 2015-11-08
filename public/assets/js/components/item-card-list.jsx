@@ -6,6 +6,6 @@ module.exports = React.createClass({
     var list = this.props.datalist.map(function(item) {
       return <ItemCard item={item} key={item.key} onBuy={this.props.onBuy} />
     })
-    return <div>{list}</div>
+    return <div hidden={this.props.hidden}>{list}</div>
   }
 })
